@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matcha Life</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+
+<header class="nav-header">
+    <a href="#home" class="logo">Matcha Life</a>
+    
+  <nav class="navlinks">
+    <a href="#about">About</a>
+    <a href="#benefits">Benefits</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<header class="main-header" id="home">
+  <div class="caption-content">
+    <img class="img-one" src="/images/matcha-on-plate.jpg" alt="Matcha on Plate">
+    <h1 id="welcome-caption">Welcome to</h1>
+    <h1 id="logo-caption">Matcha Life</h1>
+  </div>
+</header>
+
+
+
+<!-- Page content -->
+<div class="page-container">
+
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="about">
+    <div class="section">
+     <img src="/images/matcha-latte.jpg" class="img-two" alt="Matcha Latte Cup">
+    </div>
+
+    <div class="section">
+      <h1>What is <u>Matcha</u>?</h1><br>
+      <p class="p-about"> Made from shade-grown tea leaves, primarily from the Camellia sinensis plant, Matcha is a type of powdered green tea that has its origins in Japan. It is known for its vibrant green color, unique flavor, and a wide range of health benefits which has gained popularity worldwide in recent years and are commonly found in cafes, stores, and traditional tea ceremonies.</p>
+    </div>
+  </div>
+  
+
+
+  <hr id="benefits">
+
+  <div class="benefits">
+    <h1>Health Benefits</h1>
+    <ul class="benefits-grid">
+      <li>Energy Recharge</li>
+      <li>Improved Focus</li>
+      <li>Stronger Immune System</li>
+      <li>Weight Loss</li>
+      <li>Protect against Heart Attack or Stroke</li>
+      <li>Improved Brain Function and Performances</li>
+      <li>Calmness and Relaxation</li>
+      <li>Antioxidants</li>
+      <li>Reduce Mental and Physical Fatigue</li>
+      <li>Prevent Bad Breaths</li>
+      <li>Great for Skincare</li>
+      <li>Lowers Cholesterol</li>
+      <li>Alleviate Arthritis</li>
+      <li>Rich in Vitamins and Minerals</li>
+      <li>Taste Great</li>
+    </ul>
+  </div>
+
+
+
+
+  <hr id="products">
+  
+  <!-- menu tab -->
+  <div class="container">
+    <div class="tab-box">
+      <button class="tab-btn active">Powders</button>
+      <button class="tab-btn">Drinks</button>
+      <button class="tab-btn">Teawares</button>
+      <div class="line"></div>
+    </div>
+    <div class="content-box"></div>
+      <div class="content active">
+        <h5>Organic Matcha Green Tea</h5>
+        <p class="menu-subtext">Handpicked powder, vegan, gluten-free, with 100 servings 17.99</p><br>
+
+        <h5>Organic Matcha Cafe Style</h5>
+        <p class="menu-subtext">Sweetened matcha latte premium barista crafted mix 29.95</p><br>
+      
+        <h5>Authentic Japanese Matcha</h5>
+        <p class="menu-subtext">Premium high grade powder 27.95</p><br>
+      
+        <h5> Sweetened Green Tea Powder</h5>
+        <p class="menu-subtext">Green tea with added sugar used to enhance sweetness 37.75</p><br>
+      
+        <h5>Japanese Culinary Matcha</h5>
+        <p class="menu-subtext">Finely milled green tea used for various recipes 14.50</p><br>
+      
+        <h5>Ceremonial Blend</h5>
+        <p class="menu-subtext">High graded powder used in traditional japanese tea ceremonies 39.99</p>
+      </div>
+
+      <div class="content">
+        <h5>Matcha Coffee</h5>
+        <p class="menu-subtext">Matcha with regular coffee 2.50</p><br>
+    
+        <h5>Matcha Latte</h5>
+        <p class="menu-subtext">Coffee with steamed milk and foam 4.50</p><br>
+      
+        <h5>Green Tea</h5>
+        <p class="menu-subtext">Unsweetened 3.00</p><br>
+      
+        <h5>Sweetened Green Tea</h5>
+        <p class="menu-subtext">Sweetened 3.00</p><br>
+      
+        <h5>Bubble Tea</h5>
+        <p class="menu-subtext">Added tapioca pearls 4.50</p>
+      </div>
+
+      <div class="content">
+        <h5>Tea Set</h5>
+        <p class="menu-subtext">Includes 1 teapot and 4 teacups 149.99</p><br>
+    
+        <h5>Matcha Whisk</h5>
+        <p class="menu-subtext">Made with shiratake white bamboo 10.00</p><br>
+      
+        <h5>Japanese Sifter</h5>
+        <p class="menu-subtext">Stainless steel with fine mesh 5.00</p><br>
+
+        <h5>Bamboo Tea Scoop</h5>
+        <p class="menu-subtext">Made with shiratake white bamboo 24.00</p><br>
+      </div>
+  </div>
+
+  
+
+
+  <hr id="contact">
+
+  <!-- Contact Section -->
+  <div class="container-contact">
+    <h2>Contact Us</h2>
+    <form action="">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your first name" required>
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name" required>
+  
+      <label for="email">Email Address</label>
+      <input type="text" id="email" name="email" placeholder="Your email address" required>
+  
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="What would you like to say?..." required></textarea>
+  
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+</div>
+</body>
+</html>
